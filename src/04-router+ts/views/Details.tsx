@@ -14,7 +14,7 @@ export default function Details(props: RouteComponentProps<IParams>) {
     // const id = (props.match.params as any).id;
     const id = props.match.params.id;
     setdetailid(id);
-  }, []);
+  }, [props]);
 
   useEffect(() => {
     store.dispatch({
