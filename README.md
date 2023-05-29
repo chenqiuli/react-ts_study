@@ -1,8 +1,6 @@
-## react-ts
+# react-ts
 
-### [react 文档](https://reactjs.org/)
-
-### [typescript 文档]()
+### [react](https://reactjs.org/)
 
 <hr />
 
