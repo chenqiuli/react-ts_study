@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 
 export default function App() {
   return (
@@ -18,6 +18,11 @@ interface ChildProps {
 // };
 
 // 第二种约束props写法
-const Child = (props: ChildProps) => {
+// const Child = (props: ChildProps) => {
+//   return <div>{props.name}</div>;
+// };
+
+// 第三种写法
+const Child: FunctionComponent<ChildProps> = (props) => {
   return <div>{props.name}</div>;
 };
